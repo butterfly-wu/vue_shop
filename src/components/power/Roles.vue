@@ -303,7 +303,7 @@ export default {
             this.$message.error('删除权限失败')
           }
           role.children = res.data
-          this.$message.success('确认删除')
+          this.$message.success('删除成功')
         })
         .catch(() => {
           this.$message.info('已取消删除')
